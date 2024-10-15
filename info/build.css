@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: rgb(27, 27, 27);
+}
+body::after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      0deg,
+      rgb(197,241,161) 0px,
+      rgb(197,241,161) 1px,
+      transparent 2px,
+      transparent 10px
+    ),linear-gradient(
+        90deg,
+        rgb(197,241,161) 0px,
+        rgb(197,241,161) 1px,
+        transparent 2px,
+        transparent 10px
+      );
+      background-size: 20px 20px;
+    opacity: 0.1;
+    z-index: -111;
+}
+
+.selfphoto img {
+    position:absolute;
+    width:300px;
+    height:450px;
+    border-radius: 5px;
+    padding:5px 5px 5px 5px;
+    background-color: rgb(197, 241, 161);
+    margin:60px 100px 1px 85px;
+}
+
+.intro {
+    
+    margin:20px 100px 20px 100px;
+
+}
+
+.intro #profile {
+    background-color: rgb(197,241,161);
+    text-align: center;
+    font-size:17px;
+    border-radius: 5px;
+    font-weight: 1000;
+    font-family:"consolas";
+}
+
+.intro #greet {
+    position:absolute;
+    color:rgb(197,241,161);
+    font-size:40px;
+    margin:50px 200px 1px 380px;
+}
+
+.intro #text {
+    position:absolute;
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    margin:120px 200px 1px 385px;
+    font-family: "consolas";
+    line-height:20.7px;
+}
+
+.intro #job {
+    position:absolute;
+    color:rgb(197,241,161);
+    font-size:40px;
+    margin:250px 200px 1px 380px;
+}
+
+.intro #text2 {
+    position:absolute;
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    margin:320px 200px 1px 385px;
+    font-family: "consolas";
+    line-height:20.7px;
+}
+
+.moore {
+    background-color: rgb(197,241,161);
+    text-align: center;
+    font-size:17px;
+    border-radius: 5px;
+    font-weight: 1000;
+    font-family:"consolas";
+    margin:540px 100px;
+    cursor:pointer;
+}
+
+.moore #more {
+    position:absolute;
+    width:80%;
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    margin:20px 200px 1px 20px;
+    font-family: "consolas";
+    font-weight:1;
+    line-height:25px;
+    cursor:auto;
+}

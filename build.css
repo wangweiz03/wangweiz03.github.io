@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    background-color: rgb(38, 38, 38);
+    color:white;
+}
+
+.top {
+    z-index:1001;
+    position:absolute;
+    text-align:center;
+    background-color: rgb(70, 70, 70);
+    width:99.5%;
+    padding:3px;
+    opacity:0.6;
+}
+.toptx {
+    color:rgb(255, 255, 255);
+    font-size:30px;
+    text-shadow:3px 3px 1px #141414;
+    font-family: "consolas";
+}
+.toptx a {
+    color:white;
+}
+
+.i {
+    position:absolute;
+    bottom:5px;
+    right:10px;
+}
+
+.i img {
+    width:30px;
+    height:30px;
+}
+
+.i li {
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:#ffffff;
+    float:left;
+    color:#d0e9aa;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+.hd {
+    z-index:1000;
+    position:absolute;
+    font-size:45px;
+    text-align: center;
+    font-family: "Helvetica";
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 20px rgb(35, 37, 27);
+    width:100%;
+    margin:200px 0px 0px 0px;
+}
+
+.hd h6 {
+    line-height:100px;
+}
+
+#banner {
+    width: 100%;
+    height: 650px;
+    border: 0px solid #e5d28e;
+    overflow: hidden;
+    position:relative;
+}
+
+.prev {
+    background:#2f2f2f;
+    width:30px;
+    height:40px;
+    color:#fff;
+    text-align:center;
+    line-height:40px;
+    position:absolute;
+    left:5px;
+    top:45%;
+    opacity:0.5;
+    cursor: pointer;
+    border-radius:3px;
+}
+.prev:hover {
+    opacity: 1;
+}
+
+.next {
+    background:#666;
+    width:30px;
+    height:40px;
+    color:#fff;
+    text-align:center;
+    line-height:40px;
+    position:absolute;
+    right:5px;
+    top:45%;
+    opacity:0.5;
+    cursor:pointer;
+    border-radius:3px;
+}
+
+.next:hover {
+    opacity: 1;
+}
+
+#imglist {
+    width: 6750px;
+    height: 650px;
+}
+
+#imglist img {
+    opacity:0.85;
+    width: 1350px;
+    height: 650px;
+}
+
+#imglist li {
+    float: left;
+}
+
+#icolist {
+    position:absolute;
+    bottom:10px;
+    left: 590px;
+}
+#icolist li {
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:#1f231b;
+    text-align:center;
+    
+    line-height:30px;
+    float:left;
+    color:#d0e9aa;
+    cursor:pointer;
+    opacity:0.7;
+    font-family:"consolas";
+}
+#icolist li:hover {
+    opacity:1;
+}
+
+.artic h3{
+    font-family: "Helvetica";
+    margin:50px 0 0 0px;
+    padding:0 0 0 30px;
+    width:97.6%;
+    background-color: rgb(118, 156, 103);
+    font-size:60px;
+    color:#d0e9aa;
+    text-shadow:1px 1px 6px black;
+}
+
+#atc {
+    display:flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+#atc li {
+    margin:15px 10px;
+    float:left;
+    width:20%;
+    text-align:left;
+    font-family:"consolas";
+    padding:20px;
+    background-color: rgb(99, 128, 88);
+    border-radius:20px;
+    font-size:25px;
+}
+
+#atc img {
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+    padding:0;
+}
+#atc img:hover {
+    opacity:0.7;
+}
+
+#atc a {
+    color:#d0e9aa;
+    text-shadow:1px 1px 6px black;
+}
+
+
+.psnl h3{
+    font-family: "Helvetica";
+    margin:25px 0 0 0px;
+    padding:0 0 0 30px;
+    width:97.6%;
+    background-color: rgb(50, 51, 49);
+    font-size:60px;
+    color:#d0e9aa;
+    text-shadow:1px 1px 6px black;
+}
+
+#psl {
+    display:flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+#psl li {
+    margin:15px 0 0 0;
+    float:left;
+    width:20%;
+    text-align:left;
+    font-family:"consolas";
+    padding:20px;
+    background-color: rgb(55, 56, 55);
+    border-radius:20px;
+    font-size:25px;
+}
+
+#psl img {
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+    padding:0;
+}
+#psl img:hover {
+    opacity:0.7;
+}
+
+#psl a {
+    color:#d0e9aa;
+    text-shadow:1px 1px 6px black;
+}
+
+#atc2 {
+    display:flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+#atc2 li {
+    margin:15px 10px;
+    float:left;
+    width:20%;
+    text-align:left;
+    font-family:"consolas";
+    padding:20px;
+    background-color: rgb(79, 94, 73);
+    border-radius:20px;
+    font-size:25px;
+}
+
+#atc2 img {
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+    padding:0;
+}
+#atc2 img:hover {
+    opacity:0.7;
+}
+
+#atc2 a {
+    color:#d0e9aa;
+    text-shadow:1px 1px 6px black;
+}
