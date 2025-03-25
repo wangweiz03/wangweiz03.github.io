@@ -44,7 +44,7 @@ let data = [
     { name: '城六区', value: 90 },
     { name: '大兴区', value: 60 },
     { name: '昌平区', value: 60 },
-    { name: ' ', value: 0 },//天津
+    { name: ' ', value: 50 },//天津
     { name: '  ', value: 50 },//河北
     { name: '石家庄市', value: 50 },
     { name: '   ', value: 0 },//山西
@@ -62,7 +62,8 @@ let data = [
     { name: '龙岩市', value: 60 },
     { name: '             ', value: 50 },//江西
     { name: '赣州市', value: 50 },
-    { name: '              ', value: 0 },//山东
+    { name: '              ', value: 50 },//山东
+    { name: '泰安市', value: 50 },
     { name: '               ', value: 50 },//河南
     { name: '洛阳市', value: 50 },
     { name: '                ', value: 0 },//湖北
